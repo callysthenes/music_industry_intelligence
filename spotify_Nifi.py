@@ -24,5 +24,11 @@ track_id = []'''
 for i in range(0,1000,50):
     #track_results = sp.search(q='year:2021-2022', type='track', limit=50,offset=i)
     #track_results = sp.search(q='artist:' + artist + ', album:' + title, type=type, limit=i)
-    track_results = sp.search(q='artist:' + 'Beyonce' + ', album:' + 'Lemonade', type='album', limit=1)
+    #track_results = sp.search(q='artist:' + 'Beyonce' + ', album:' + 'Lemonade', type='album', limit=1)
+    #track_results = sp.search(q='artist:' + 'Beyonce'  , type='artist,album')
+    #track_results = sp.search(q='artist:' + 'Beyonce' , type='artist')
+    track_results = sp.artist_top_tracks('6vWDO969PvNqNYHIOW5v0m', country='ES')
+    available = sp.available_markets()
+
 print(track_results)
+print(available)
