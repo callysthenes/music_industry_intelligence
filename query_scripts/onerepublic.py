@@ -38,7 +38,7 @@ client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAPEbiQEAAAAAuuFvB9xcB%2
 # -is:retweet means I don't want retweets
 # lang:en is asking for the tweets to be in english
 #maximum results are 100, modify this accroding to your api limit!!!!
-query = 'onerepublic -is:retweet lang:en place_country: US'
+query = 'onerepublic OR One Republic OR #onerepublic -is:retweet lang:en place_country: US'
 # Replace with time period of your choice
 start_time = '2022-01-01T00:00:00Z'
 
@@ -49,5 +49,5 @@ for tweet in tweepy.Paginator(client.search_all_tweets, query=query,
                               tweet_fields=['context_annotations', 'created_at'],
                               start_time=start_time,
                               end_time=end_time,
-                              max_results=100).flatten(limit=10000):
+                              max_results=100).flatten(limit=100000):
     print(tweet.data)

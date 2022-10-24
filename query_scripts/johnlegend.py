@@ -33,12 +33,12 @@ except:
     
 client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAPEbiQEAAAAAuuFvB9xcB%2FR4J2RXWNApbAWQ3PY%3DVqvJvvr5WlYDYSfMq5GcZqGGu2gapcfF0ezvJzCWfDaodqSE4L')
 
-# Get tweets that contain the hashtag #badbunny 
+# Get tweets that contain the hashtag #john legend
 # With location is US
 # -is:retweet means I don't want retweets
 # lang:en is asking for the tweets to be in english
 #maximum results are 100, modify this accroding to your api limit!!!!
-query = 'johnlegend -is:retweet lang:en place_country: US'
+query = 'johnlegend OR #johnlegend OR John Legend -is:retweet lang:en place_country: US'
 # Replace with time period of your choice
 start_time = '2022-01-01T00:00:00Z'
 
@@ -49,5 +49,5 @@ for tweet in tweepy.Paginator(client.search_all_tweets, query=query,
                               tweet_fields=['context_annotations', 'created_at'],
                               start_time=start_time,
                               end_time=end_time,
-                              max_results=100).flatten(limit=10000):
+                              max_results=100).flatten(limit=100000):
     print(tweet.data)
