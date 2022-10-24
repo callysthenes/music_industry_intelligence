@@ -40,7 +40,7 @@ client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAPEbiQEAAAAAuuFvB9xcB%2
 #maximum results are 100, modify this accroding to your api limit!!!!
 
 
-query = 'jcole -is:retweet lang:en place_country: US'
+query = "J.Cole OR jcole OR #jcole OR Jermaine Cole OR Jermaine Lamarr Cole OR j cole -is:retweet lang:en place_country: US"
 
 start_time = '2022-01-01T00:00:00Z'
 end_time = '2022-10-01T00:00:00Z'

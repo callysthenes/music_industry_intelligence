@@ -38,7 +38,7 @@ client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAPEbiQEAAAAAuuFvB9xcB%2
 # -is:retweet means I don't want retweets
 # lang:en is asking for the tweets to be in english
 #maximum results are 100, modify this accroding to your api limit!!!!
-query = 'johnlegend -is:retweet lang:en place_country: US'
+query = 'johnlegend OR #johnlegend OR John Legend -is:retweet lang:en place_country: US'
 
 start_time = '2022-01-01T00:00:00Z'
 end_time = '2022-10-01T00:00:00Z'
