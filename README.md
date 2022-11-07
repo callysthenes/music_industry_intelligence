@@ -45,13 +45,13 @@ Thanks goes to these wonderful people
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/domro11"><img src="https://avatars.githubusercontent.com/u/108944195?v=4" width="100px;" alt="Dominik Roser"/><br /><sub><b>Dominik Roser</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=NinoMaj" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/domro11"><img src="https://avatars.githubusercontent.com/u/108944195?v=4" width="100px;" alt="Dominik Roser"/><br /><sub><b>Dominik Roser</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=NinoMaj" title="Documentation">💻</a></td>
     <td align="center"><a href="https://github.com/CarlosBlazquezP"><img src="https://avatars.githubusercontent.com/u/108976036?v=4" width="100px;" alt="Carlos Blazquez"/><br /><sub><b>Carlos Blazquez</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=saurabhdaware" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/dianisley"><img src="https://avatars.githubusercontent.com/u/103318089?v=4" width="100px;" alt="Diana Fernandez"/><br /><sub><b>Diana Fernandez</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=pablopunk" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/CBRodulfo"><img src="https://avatars.githubusercontent.com/u/107241015?v=4" width="100px;" alt="Christian Barba"/><br /><sub><b>Christian Barba</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=ryanpwaldon" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hibashanaa"><img src="https://avatars.githubusercontent.com/u/15159069?v=4" width="100px;" alt="Hiba Shanaa"/><br /><sub><b>Hiba Shanaa</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=cherniavskii" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/markantoinehourany"><img src="https://avatars.githubusercontent.com/u/108943228?v=4" width="100px;" alt="Mark Hourany"/><br /><sub><b>Mark Hourany</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=NullVoxPopuli" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Callisthenes"><img src="https://avatars.githubusercontent.com/u/91435423?v=4" width="100px;" alt="Pedro V. Esteban"/><br /><sub><b>Pedro V. Esteban</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Aaditya211935" title="Bug reports">🐛</a></td> 
+    <td align="center"><a href="https://github.com/Callisthenes"><img src="https://avatars.githubusercontent.com/u/91435423?v=4" width="100px;" alt="Pedro V. Esteban"/><br /><sub><b>Pedro V. Esteban</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Aaditya211935" title="Bug reports">💻</a></td> 
   </tr>
 </table>
 
