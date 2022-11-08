@@ -1,18 +1,15 @@
-<p align="center">
-  <a href="https://codesandbox.io">
-    <img src="https://github.com/Callisthenes/music_industry_intelligence/blob/main/index.png" height="300px">
-  </a>
-</p>
+
+![Copy of MDA II Final Presentation (1)](https://user-images.githubusercontent.com/103318089/200542872-43339748-9e8d-4ce5-8d77-2b08f80adcd4.png)
 
 &nbsp;
 
 ## PlanIt* Music Description:
 
-PlanIt* is a prototype project engineered to ingest data from Spotify and Twitter, analyze it, and make forecasts of music trends (artists and songs) that are valuable to festival planners based on the current demand.
+PlanIt* is a prototype project engineered to ingest data from Spotify and Twitter, analyze it, and make forecasts of music trends (artists and songs) that are valuable to festival planners and music touring industry based on the current demand.
 
-The tool analyzes the music taste of an audience and identify artists and songs that could tailor best a music festival. 
+The tool analyzes the music taste of an audience and identify artists and songs that could tailor best a music gigs. 
 
-As a result, PlanIt* creates recommendations for featured artists(main acts) and opening artists.
+As a result, PlanIt* creates recommendations for opening acts based on featured artist selection and playlists
 
 ## Features:
 
@@ -29,7 +26,10 @@ As a result, PlanIt* creates recommendations for featured artists(main acts) and
 
 ## The Result
 
-https://app.powerbi.com/view?r=eyJrIjoiYTFhNzhhMDItYTBhMy00NzRjLThlNDItYmQwOWViYjVjMzFkIiwidCI6IjczNDU4NDQzLTE2MjctNDA5MS04YjM5LTIyMjIxMzQ5MDdjNSIsImMiOjh9&pageName=ReportSection
+[PlanIt Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTFhNzhhMDItYTBhMy00NzRjLThlNDItYmQwOWViYjVjMzFkIiwidCI6IjczNDU4NDQzLTE2MjctNDA5MS04YjM5LTIyMjIxMzQ5MDdjNSIsImMiOjh9&pageName=ReportSection)
+
+<img width="1600" alt="Screenshot 2022-11-08 105106" src="https://user-images.githubusercontent.com/103318089/200532576-8e12da9c-f1b4-4ed9-8bb8-d9cd022b31dc.png">
+
 
 
 ## Documentation
