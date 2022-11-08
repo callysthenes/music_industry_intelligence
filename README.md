@@ -4,6 +4,22 @@
   </a>
 </p>
 
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Callisthenes/music_industry_intelligence?color=54348C">
+
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Callisthenes/music_industry_intelligence?color=54348C">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Callisthenes/music_industry_intelligence}?color=54348C">
+
+  <img alt="License" src="https://img.shields.io/github/license/Callisthenes/music_industry_intelligence?color=54348C">
+
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/Callisthenes/music_industry_intelligence?color=54348C" /> -->
+
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/Callisthenes/music_industry_intelligence?color=54348C" /> -->
+
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/Callisthenes/music_industry_intelligence?color=54348C" /> -->
+</p>
+
 &nbsp;
 
 ## PlanIt* Music Description:
