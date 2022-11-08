@@ -138,3 +138,15 @@ CREATE TABLE Forecast (
   forecasted_tweets INT,
   PRIMARY KEY(dates, artist)
 );
+
+USE GROUPA;
+DROP TABLE IF EXISTS PAGERANK;
+CREATE TABLE PAGERANK (
+  id_ VARCHAR(100),
+  name_ VARCHAR(100),
+  followers INT,
+  popularity INT,
+  genres VARCAR(1000)
+  pagerank INT, 
+  PRIMARY KEY(id_)
+);
