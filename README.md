@@ -19,9 +19,12 @@ As a result, PlanIt* creates recommendations for opening acts based on featured 
 - Recommendation system for opening bands in a festival
 - Recommendation system for songs to be played in a festival
 
-## The Pipeline
+## The Big Data Pipeline
 
-<img src="https://github.com/Callisthenes/music_industry_intelligence/blob/main/pipeline.png" height="300px">
+![MDA II Final Presentation](https://user-images.githubusercontent.com/103318089/201260606-1be77a42-c03b-48bc-8ec8-58336f0ca7d4.png)
+
+
+
 
 
 ## The Result
