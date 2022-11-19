@@ -1,45 +1,50 @@
 
-![Copy of MDA II Final Presentation (1)](https://user-images.githubusercontent.com/103318089/200542872-43339748-9e8d-4ce5-8d77-2b08f80adcd4.png)
+![Copy of MDA II Final Presentation (1)](https://user-images.githubusercontent.com/103318089/202836428-3d186d5d-d733-4fa7-9a5a-bfa27418c3ed.png)
 
 &nbsp;
 
-## PlanIt* Music Description:
+<!-- About the Project -->
+# :star2: About the Project
 
 PlanIt* is a prototype project engineered to ingest data from Spotify and Twitter, analyze it, and make forecasts of music trends (artists and songs) that are valuable to festival planners and music touring industry based on the current demand.
 
-The tool analyzes the music taste of an audience and identify artists and songs that could tailor best a music gigs. 
+The tool analyzes the music taste of an audience and identify artists and songs that could tailor best a music gig. 
 
 As a result, PlanIt* creates recommendations for opening acts based on featured artist selection and playlists
 
-## Features:
 
-- Identifies top artists
-- Finds how many songs the artist has had in the top charts in a given year
-- Finds related artists pegged to a main artist
-- Recommendation system for opening bands in a festival
-- Recommendation system for songs to be played in a festival
+<!-- TechStack -->
+# :space_invader: Tech Stack
 
-## The Big Data Pipeline
+Here's a brief high-level overview of the tech stack the project uses:
+
+- For the ingestion platform, we leverage [NIFI](https://nifi.apache.org/), for both streaming and batch ingestion from our data sources Spotify and Twitter.
+- The project uses the [HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html) as our primary storage system
+- Processing layer leverage mainly [Apache Spark](https://spark.apache.org/). We leverage also ML and Graphframes for advance analytics
+- Our serving layer is made of [MariaDB](https://fonts.google.com/specimen/Work+Sans) for data base storage
+- Finally, analytics done with [Power BI](https://powerbi.microsoft.com/en-cy/). POC Dashboard can be visualized here [PlanIt Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTFhNzhhMDItYTBhMy00NzRjLThlNDItYmQwOWViYjVjMzFkIiwidCI6IjczNDU4NDQzLTE2MjctNDA5MS04YjM5LTIyMjIxMzQ5MDdjNSIsImMiOjh9&pageName=ReportSection)
 
 ![MDA II Final Presentation](https://user-images.githubusercontent.com/103318089/201260606-1be77a42-c03b-48bc-8ec8-58336f0ca7d4.png)
 
+<!-- Features -->
+# :dart: Features
 
+- By ingesting data from the [Spotify API](https://developer.spotify.com/documentation/web-api/) we combine and rank a selection of artists by analyzing top charts, frequency of appearance, followers and popularity and generate reccommendations relevant to tour managers, festival organizers to support their decision making.
+- We leverage [Spotify API](https://developer.spotify.com/documentation/web-api/) and [Twitter](https://developer.twitter.com/en/docs/twitter-api) to better understand popularity trends and social media positioning of music artists.
+- We generate recommendations for young bands to open for larger, more established performers as supporting acts based on song's audio features similarities and social media trends.
+- Leverage fan's music taste in order to identiy the best song line-up for concerts and music events.
 
+# :bookmark_tabs: Documentation
 
+You can find our documentation [here](https://github.com/Callisthenes/music_industry_intelligence/documentation) with the following tutorials
 
-## The Result
+- Update Nifi: Updates done in the course environment that allowed us to stream ingest from Twitter leveraging NIFI processor. 
+- Spotify Config Ingestion: Step by step guidance of Spotify Ingestion leveraging Postman.
+- Tweepy tutorial: Step by step guidance on how to ingest from twitter leveraging Tweepy.
+- Two objects working with our VM environment: Sharing a workaround to be able to work with 2 os.environment on the same Jupyter notebook which allowed us to work both with Graphframes and Mariadb.
+- Connect Powerbi to vm: Step by step guidance on how to connect the course environment to PowerBi and leverage the full potential of dashboard analytics
 
-[PlanIt Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTFhNzhhMDItYTBhMy00NzRjLThlNDItYmQwOWViYjVjMzFkIiwidCI6IjczNDU4NDQzLTE2MjctNDA5MS04YjM5LTIyMjIxMzQ5MDdjNSIsImMiOjh9&pageName=ReportSection)
-
-<img width="1600" alt="Screenshot 2022-11-08 105106" src="https://user-images.githubusercontent.com/103318089/200532576-8e12da9c-f1b4-4ed9-8bb8-d9cd022b31dc.png">
-
-
-
-## Documentation
-
-You can find our documentation [here](https://github.com/Callisthenes/music_industry_intelligence/documentation)
-
-## Contributors ✨
+# ✨ Contributors 
 
 Thanks goes to these wonderful people
 
