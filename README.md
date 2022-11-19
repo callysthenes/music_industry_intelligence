@@ -40,11 +40,11 @@ Here's a brief high-level overview of the tech stack the project uses:
 
 You can find our documentation [here](https://github.com/Callisthenes/music_industry_intelligence/documentation) with the following tutorials
 
-- Update Nifi: Updates done in the course environment that allowed us to stream ingest from Twitter leveraging NIFI processor. 
-- Spotify Config Ingestion: Step by step guidance of Spotify Ingestion leveraging Postman.
-- Tweepy tutorial: Step by step guidance on how to ingest from twitter leveraging Tweepy.
-- Two objects working with our VM environment: Sharing a workaround to be able to work with 2 os.environment on the same Jupyter notebook which allowed us to work both with Graphframes and Mariadb.
-- Connect Powerbi to vm: Step by step guidance on how to connect the course environment to PowerBi and leverage the full potential of dashboard analytics
+- **Update Nifi:** Updates done in the course environment that allowed us to stream ingest from Twitter leveraging NIFI processor. 
+- **Spotify Config Ingestion:** Step by step guidance of Spotify ingestion leveraging Postman and NIFI.
+- **Tweepy tutorial:** Step by step guidance on how to ingest from twitter leveraging Tweepy and NIFI.
+- **Two objects working with VM environment:** Sharing a workaround to be able to work with 2 os.environment on the same Jupyter notebook which allowed us to work both with Graphframes and Mariadb.
+- **Connect Powerbi to VM environment:** Step by step guidance on how to connect the course environment to PowerBI and leverage the full potential of analytics
 
 # ✨ Contributors 
 
